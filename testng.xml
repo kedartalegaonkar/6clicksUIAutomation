@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1" >
+
+<test name="Test for create User">
+  <parameter name="Team" value="AdminTeam"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="createUser" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for create Market place">
+  <parameter name="Team" value="AdminTeam"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="createMplacecategory" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for NewAuthority and Provision">
+  <parameter name="Team" value="AdminTeam"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="CreateAuthorityAndProvisionFromHost" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for create Assessment">
+  <parameter name="Team" value="Team"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="creatSubmitAssessmentAndVerifyResult" /> 
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for creating version template">
+  <parameter name="Team" value="Team"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="CreateVersionOfAssessmentTemplate" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for creating template">
+  <parameter name="Team" value="Team"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="createAssessmentTemplateAndAssessment" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for create tenant"> 
+  <parameter name="Team" value="AdminTeam"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="CustomBrandingForServiceProvider_1" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for create editions"> 
+  <parameter name="Team" value="sellerTeam"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="CreateMarketplaceAssessmentTemplate" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="Test for validating tenant and client">
+  <parameter name="Team" value="Defaultuser"/> 
+  <classes>
+        <class name="tests.driverScript">
+            <methods>
+                <include name="CustomBrandingForServiceProvider_2" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+</suite>
