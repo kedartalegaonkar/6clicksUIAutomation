@@ -5,9 +5,17 @@
     <classes>
       <class name="tests.driverScript">
         <methods>
+          <include name="CreateAuthorityAndProvisionFromHost" invocation-numbers="0"/>
+          <include name="CreateMarketplaceAssessmentTemplate" invocation-numbers="0"/>
+          <include name="creatSubmitAssessmentAndVerifyResult" invocation-numbers="0"/>
           <include name="login"/>
           <include name="setup"/>
           <include name="createUser" invocation-numbers="0"/>
+          <include name="CreateVersionOfAssessmentTemplate" invocation-numbers="0"/>
+          <include name="createAssessmentTemplateAndAssessment" invocation-numbers="0"/>
+          <include name="CustomBrandingForServiceProvider_1" invocation-numbers="0"/>
+          <include name="CustomBrandingForServiceProvider_2" invocation-numbers="0"/>
+          <include name="createMplacecategory" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.driverScript -->
     </classes>

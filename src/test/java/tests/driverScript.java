@@ -122,7 +122,7 @@ public class driverScript {
 		loginpage.changePassword(map);
 		loginpage.manageBranding(map);
 		loginpage.uploadBrandingImages(map);		 
-		loginpage.newTenantValidations(map,loginpage.leftClientsLink,"Clients","Client:");		
+		loginpage.newTenantValidations(map,loginpage.leftClientsLink,"Your Clients","Client:");		
 	}
 
 	@Test(dataProvider = "data")  //login with Defaultuser3664  -- tested with excel and screenshot
@@ -132,10 +132,10 @@ public class driverScript {
 		map.put("Validation", "for seller tenant");
 		ArrayList<String> list=loginpage.getMarketPlaceList(map);		 
 		loginpage.getLogoDetails(map);		 
-		loginpage.loginToApp(driver,"Team1ForCIS",Util.readProperty("UserName"),Util.readProperty("Password"));
+		loginpage.loginToApp(driver,"ClientOfAutomationSPTenant",Util.readProperty("UserName"),Util.readProperty("Password"));		//Team1ForCIS
 		map.put("Validation", "for client");
 		ArrayList<String> listClient=loginpage.getMarketPlaceList(map);
-		loginpage.newTenantValidations(map,loginpage.leftThirdPartyLink,"Third-Parties","Assessee:");		 
+		loginpage.newTenantValidations(map,loginpage.leftThirdPartyLink,"Third-Parties","Respondent:");		 
 		loginpage.getLogoDetails(map);
 		loginpage.compareLists(list, listClient,map);	 
 	}	 
@@ -239,8 +239,12 @@ public class driverScript {
 		map.put("Scenario Name","creatSubmitAssessmentAndVerifyResult");
 		loginpage.createAssessment(map,softAssertion);
 		loginpage.createDomain("2",map);		
-		loginpage.createYesNoquestion(map);			
-		loginpage.createCustomquestion(map);	  
+		loginpage.createYesNoquestion(map);
+		
+		loginpage.createResponceOnlyQuestion(map);
+		
+	//	loginpage.createCustomquestion(map);
+		
 		loginpage.navigateToAuditTab();
 		loginpage.verifyAuditTab(map,"before approve");
 		loginpage.changeAssessmentStatus(loginpage.approveAssessment,"Approved",map);
@@ -263,7 +267,7 @@ public class driverScript {
 		loginpage.validateProof(map, 3,"","");
 
 		loginpage.copyLink(map);
-		loginpage.logoutApp(loginpage.logoutImage);
+		loginpage.logoutApp(loginpage.logoutImageMod);
 
 		String Url=loginpage.getclipboardcontent(map);
 		Reporter.log("URL for completion: "+Url);	    

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="72" total="81" passed="9">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Creating object of chrome browser]]>
@@ -8,232 +8,19 @@
       <![CDATA[Naviagating to the URL.]]>
     </line>
     <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[URL for completion: https://demo.6clicks.io/account/assessment/1cc89tva70u]]>
-    </line>
-    <line>
-      <![CDATA[Validate complete status started]]>
-    </line>
-    <line>
-      <![CDATA[Time Line title after publish: Submitted by Kedar
-Kedar]]>
-    </line>
-    <line>
-      <![CDATA[Validate complete status ends here]]>
-    </line>
-    <line>
-      <![CDATA[---Test case ends---]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[New template created successfully with name: myTemplate9423]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[New template created successfully with name: myTemplate3295]]>
-    </line>
-    <line>
-      <![CDATA[URL for completion: https://demo.6clicks.io/account/assessment/v19v212tf21]]>
-    </line>
-    <line>
-      <![CDATA[Validate complete status started]]>
-    </line>
-    <line>
-      <![CDATA[Time Line title after publish: Submitted by Kedar
-Kedar]]>
-    </line>
-    <line>
-      <![CDATA[Validate complete status ends here]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[New template created successfully with name: myTemplate7499]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
-    </line>
-    <line>
-      <![CDATA[Creating object of chrome browser]]>
-    </line>
-    <line>
-      <![CDATA[Naviagating to the URL.]]>
+      <![CDATA[New template created successfully with name: myTemplate1868]]>
     </line>
   </reporter-output>
-  <suite name="Suite1" duration-ms="2949663" started-at="2019-09-15T05:18:36Z" finished-at="2019-09-15T06:07:45Z">
+  <suite started-at="2020-01-28T17:09:37Z" name="Suite1" finished-at="2020-01-28T17:15:46Z" duration-ms="369194">
     <groups>
     </groups>
-    <test name="Test for create User" duration-ms="164010" started-at="2019-09-15T05:18:36Z" finished-at="2019-09-15T05:21:20Z">
+    <test started-at="2020-01-28T17:09:37Z" name="Test for creating version template" finished-at="2020-01-28T17:15:46Z" duration-ms="369194">
       <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@4e7dc304]" name="login" is-config="true" duration-ms="27860" started-at="2019-09-15T10:48:36Z" finished-at="2019-09-15T10:49:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AdminTeam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@48c35007]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="createUser(java.util.Map)[pri:0, instance:tests.driverScript@4e7dc304]" name="createUser" duration-ms="133849" started-at="2019-09-15T10:49:04Z" data-provider="data" finished-at="2019-09-15T10:51:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.driverScript@2ddc9a9f]" started-at="2020-01-28T22:39:36Z" name="setup" finished-at="2020-01-28T22:39:37Z" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@4e7dc304]" name="logout" is-config="true" duration-ms="2167" started-at="2019-09-15T10:51:18Z" finished-at="2019-09-15T10:51:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for create User -->
-    <test name="Test for create Market place" duration-ms="125000" started-at="2019-09-15T05:21:20Z" finished-at="2019-09-15T05:23:25Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@2d8f65a4]" name="login" is-config="true" duration-ms="40734" started-at="2019-09-15T10:51:20Z" finished-at="2019-09-15T10:52:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AdminTeam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@72a85671]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="createMplacecategory(java.util.Map)[pri:0, instance:tests.driverScript@2d8f65a4]" name="createMplacecategory" duration-ms="82095" started-at="2019-09-15T10:52:01Z" data-provider="data" finished-at="2019-09-15T10:53:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createMplacecategory -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@2d8f65a4]" name="logout" is-config="true" duration-ms="2115" started-at="2019-09-15T10:53:23Z" finished-at="2019-09-15T10:53:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for create Market place -->
-    <test name="Test for NewAuthority and Provision" duration-ms="120695" started-at="2019-09-15T05:23:25Z" finished-at="2019-09-15T05:25:26Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@76f2b07d]" name="login" is-config="true" duration-ms="38770" started-at="2019-09-15T10:53:25Z" finished-at="2019-09-15T10:54:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AdminTeam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6722db6e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="CreateAuthorityAndProvisionFromHost(java.util.Map, org.testng.ITestContext)[pri:0, instance:tests.driverScript@76f2b07d]" name="CreateAuthorityAndProvisionFromHost" duration-ms="79509" started-at="2019-09-15T10:54:04Z" data-provider="data" finished-at="2019-09-15T10:55:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@5c530d1e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateAuthorityAndProvisionFromHost -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@76f2b07d]" name="logout" is-config="true" duration-ms="2378" started-at="2019-09-15T10:55:23Z" finished-at="2019-09-15T10:55:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for NewAuthority and Provision -->
-    <test name="Test for create Assessment" duration-ms="614694" started-at="2019-09-15T05:25:26Z" finished-at="2019-09-15T05:35:40Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@1877ab81]" name="login" is-config="true" duration-ms="54341" started-at="2019-09-15T10:55:26Z" finished-at="2019-09-15T10:56:20Z">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@2ddc9a9f]" started-at="2020-01-28T22:39:37Z" name="login" finished-at="2020-01-28T22:41:21Z" duration-ms="104139" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,7 +29,7 @@ Kedar]]>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@18f20260]]>
+                <![CDATA[[Ljava.lang.Object;@3491e86e]]>
               </value>
             </param>
           </params>
@@ -255,275 +42,25 @@ Kedar]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="creatSubmitAssessmentAndVerifyResult(java.util.Map)[pri:0, instance:tests.driverScript@1877ab81]" name="creatSubmitAssessmentAndVerifyResult" duration-ms="560143" started-at="2019-09-15T10:56:20Z" data-provider="data" finished-at="2019-09-15T11:05:40Z">
+        <test-method signature="CreateVersionOfAssessmentTemplate(java.util.Map)[pri:0, instance:tests.driverScript@2ddc9a9f]" started-at="2020-01-28T22:41:21Z" name="CreateVersionOfAssessmentTemplate" data-provider="data" finished-at="2020-01-28T22:45:46Z" duration-ms="264834" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
+                <![CDATA[{EmailID=dovame3422@winmails.net, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[URL for completion: https://demo.6clicks.io/account/assessment/1cc89tva70u]]>
-            </line>
-            <line>
-              <![CDATA[Validate complete status started]]>
-            </line>
-            <line>
-              <![CDATA[Time Line title after publish: Submitted by Kedar
-Kedar]]>
-            </line>
-            <line>
-              <![CDATA[Validate complete status ends here]]>
-            </line>
-            <line>
-              <![CDATA[---Test case ends---]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- creatSubmitAssessmentAndVerifyResult -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@1877ab81]" name="logout" is-config="true" duration-ms="148" started-at="2019-09-15T11:05:40Z" finished-at="2019-09-15T11:05:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for create Assessment -->
-    <test name="Test for creating version template" duration-ms="325482" started-at="2019-09-15T05:35:40Z" finished-at="2019-09-15T05:41:06Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@528931cf]" name="login" is-config="true" duration-ms="45249" started-at="2019-09-15T11:05:40Z" finished-at="2019-09-15T11:06:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Team]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@4ae33a11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="CreateVersionOfAssessmentTemplate(java.util.Map)[pri:0, instance:tests.driverScript@528931cf]" name="CreateVersionOfAssessmentTemplate" duration-ms="277999" started-at="2019-09-15T11:06:26Z" data-provider="data" finished-at="2019-09-15T11:11:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[New template created successfully with name: myTemplate9423]]>
+              <![CDATA[New template created successfully with name: myTemplate1868]]>
             </line>
           </reporter-output>
         </test-method> <!-- CreateVersionOfAssessmentTemplate -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@528931cf]" name="logout" is-config="true" duration-ms="2187" started-at="2019-09-15T11:11:04Z" finished-at="2019-09-15T11:11:06Z">
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.driverScript@2ddc9a9f]" started-at="2020-01-28T22:45:46Z" name="logout" finished-at="2020-01-28T22:45:46Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- tests.driverScript -->
     </test> <!-- Test for creating version template -->
-    <test name="Test for creating template" duration-ms="603561" started-at="2019-09-15T05:41:06Z" finished-at="2019-09-15T05:51:10Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@52feb982]" name="login" is-config="true" duration-ms="43467" started-at="2019-09-15T11:11:06Z" finished-at="2019-09-15T11:11:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Team]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7a48e6e2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="createAssessmentTemplateAndAssessment(java.util.Map)[pri:0, instance:tests.driverScript@52feb982]" name="createAssessmentTemplateAndAssessment" duration-ms="557944" started-at="2019-09-15T11:11:49Z" data-provider="data" finished-at="2019-09-15T11:21:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[New template created successfully with name: myTemplate3295]]>
-            </line>
-            <line>
-              <![CDATA[URL for completion: https://demo.6clicks.io/account/assessment/v19v212tf21]]>
-            </line>
-            <line>
-              <![CDATA[Validate complete status started]]>
-            </line>
-            <line>
-              <![CDATA[Time Line title after publish: Submitted by Kedar
-Kedar]]>
-            </line>
-            <line>
-              <![CDATA[Validate complete status ends here]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createAssessmentTemplateAndAssessment -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@52feb982]" name="logout" is-config="true" duration-ms="2108" started-at="2019-09-15T11:21:07Z" finished-at="2019-09-15T11:21:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for creating template -->
-    <test name="Test for create tenant" duration-ms="244554" started-at="2019-09-15T05:51:10Z" finished-at="2019-09-15T05:55:14Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@2f943d71]" name="login" is-config="true" duration-ms="27683" started-at="2019-09-15T11:21:10Z" finished-at="2019-09-15T11:21:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AdminTeam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@b40bb6e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="CustomBrandingForServiceProvider_1(java.util.Map)[pri:0, instance:tests.driverScript@2f943d71]" name="CustomBrandingForServiceProvider_1" duration-ms="214713" started-at="2019-09-15T11:21:37Z" data-provider="data" finished-at="2019-09-15T11:25:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CustomBrandingForServiceProvider_1 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@2f943d71]" name="logout" is-config="true" duration-ms="2119" started-at="2019-09-15T11:25:12Z" finished-at="2019-09-15T11:25:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for create tenant -->
-    <test name="Test for create editions" duration-ms="546100" started-at="2019-09-15T05:55:14Z" finished-at="2019-09-15T06:04:20Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@7d70d1b1]" name="login" is-config="true" duration-ms="43096" started-at="2019-09-15T11:25:14Z" finished-at="2019-09-15T11:25:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sellerTeam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@3a94964]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="CreateMarketplaceAssessmentTemplate(java.util.Map)[pri:0, instance:tests.driverScript@7d70d1b1]" name="CreateMarketplaceAssessmentTemplate" duration-ms="500873" started-at="2019-09-15T11:25:57Z" data-provider="data" finished-at="2019-09-15T11:34:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[New template created successfully with name: myTemplate7499]]>
-            </line>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateMarketplaceAssessmentTemplate -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@7d70d1b1]" name="logout" is-config="true" duration-ms="2112" started-at="2019-09-15T11:34:18Z" finished-at="2019-09-15T11:34:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for create editions -->
-    <test name="Test for validating tenant and client" duration-ms="205081" started-at="2019-09-15T06:04:20Z" finished-at="2019-09-15T06:07:45Z">
-      <class name="tests.driverScript">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.driverScript@2173f6d9]" name="setup" is-config="true" duration-ms="1721" started-at="2019-09-15T10:48:34Z" finished-at="2019-09-15T10:48:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login(java.lang.String, [Ljava.lang.Object;)[pri:0, instance:tests.driverScript@2173f6d9]" name="login" is-config="true" duration-ms="47006" started-at="2019-09-15T11:34:20Z" finished-at="2019-09-15T11:35:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Defaultuser]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@5049d8b2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Creating object of chrome browser]]>
-            </line>
-            <line>
-              <![CDATA[Naviagating to the URL.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="CustomBrandingForServiceProvider_2(java.util.Map)[pri:0, instance:tests.driverScript@2173f6d9]" name="CustomBrandingForServiceProvider_2" duration-ms="155858" started-at="2019-09-15T11:35:07Z" data-provider="data" finished-at="2019-09-15T11:37:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CustomBrandingForServiceProvider_2 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:tests.driverScript@2173f6d9]" name="logout" is-config="true" duration-ms="2198" started-at="2019-09-15T11:37:43Z" finished-at="2019-09-15T11:37:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- tests.driverScript -->
-    </test> <!-- Test for validating tenant and client -->
   </suite> <!-- Suite1 -->
 </testng-results>

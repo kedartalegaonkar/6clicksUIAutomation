@@ -12,7 +12,7 @@
         </class>
     </classes>
 </test>
-
+<!--
 <test name="Test for create Market place">
   <parameter name="Team" value="AdminTeam"/> 
   <classes>
@@ -100,5 +100,5 @@
         </class>
     </classes>
 </test>
-
+-->
 </suite>

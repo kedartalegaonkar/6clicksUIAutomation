@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test for create User</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 15 10:48:36 IST 2019</td>
+<td>Started on:</td><td>Tue Jan 28 16:27:01 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>164 seconds (164010 ms)</td>
+<tr><td>Total time:</td><td>138 seconds (138229 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,18 +67,124 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.driverScript.createUser()'><b>createUser</b><br>Test class: tests.driverScript<br>Parameters: {EmailID=kedartalegaonkar@gmail.com, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}</td>
+<td title='tests.driverScript.login()'><b>login</b><br>Test class: tests.driverScript<br>Parameters: AdminTeam, [Ljava.lang.Object;@342726f1<br/>
+<a href="#Output-131096911" onClick='toggleBox("Output-131096911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131096911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131096911">
+Creating object of chrome browser<br/>
+Naviagating to the URL.<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Page not loaded for login. Stooping the test
+	at Page.loginScreen.loginToApp(loginScreen.java:2072)
+	at Page.loginScreen.init(loginScreen.java:2026)
+	at tests.driverScript.login(driverScript.java:65)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace131096911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131096911'><pre>java.lang.AssertionError: Page not loaded for login. Stooping the test
+	at Page.loginScreen.loginToApp(loginScreen.java:2072)
+	at Page.loginScreen.init(loginScreen.java:2026)
+	at tests.driverScript.login(driverScript.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>tests.driverScript@2ddc9a9f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.driverScript.logout()'><b>logout</b><br>Test class: tests.driverScript</td>
 <td></td>
-<td>133</td>
-<td>tests.driverScript@4e7dc304</td></tr>
+<td>0</td>
+<td>tests.driverScript@2ddc9a9f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.driverScript.createUser()'><b>createUser</b><br>Test class: tests.driverScript<br>Parameters: {EmailID=dovame3422@winmails.net, Option2=TestOption2, AuthorityName=BestOne, Option1=TestOption1, Question2Heading=Custom Question1, sellerPrice=111, TagName=My Tag, Q2HeadTemp=Responce question for template, Question1Heading=Yes No Question1, RunStatus=Y, TeamName=Test, Question1Description=My first question for YesNo, DefaultUser=Defaultuser, TemplateName=myTemplate, Q1HeadTemp=Custom Question1 for template, Question2Description=My first question Custom, uploadFile=CIS.png, VendorName=test, DomainName=New Domain, TempWeight=10, editAuthorityURL=abc, PrefAnswer1=No, TemplateType=Modern Slavery, PrefAnswer2=Yes, AssessmentName=CrAssessment, AuthorityBodyName=First Auth, ActionName=ActionName1, sectorNameAuthority=sector name, Q2DescTemp=Responce question for template, TagDesc=Tag Description, Q1DescTemp=My first question Custom for template, editJurisName=India, MktName=MyMarket, MktDesc=Description 1}</td>
+<td><div><pre>java.lang.AssertionError: Page not loaded for login. Stooping the test
+	at Page.loginScreen.loginToApp(loginScreen.java:2072)
+	at Page.loginScreen.init(loginScreen.java:2026)
+	at tests.driverScript.login(driverScript.java:65)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace885991756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace885991756'><pre>java.lang.AssertionError: Page not loaded for login. Stooping the test
+	at Page.loginScreen.loginToApp(loginScreen.java:2072)
+	at Page.loginScreen.init(loginScreen.java:2026)
+	at tests.driverScript.login(driverScript.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>tests.driverScript@2ddc9a9f</td></tr>
 </table><p>
 </body>
 </html>
